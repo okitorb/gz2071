@@ -57,4 +57,9 @@ class UserDaoTest {
 		dao.save(user);
 		
 	}
+	
+	@Test
+	void hello() {
+		System.out.println("hello github");
+	}
 }
